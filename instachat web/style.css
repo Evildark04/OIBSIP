@@ -149,9 +149,7 @@ header {
   align-items: flex-start;
   margin-top: 25px;
   margin-left: 20px;
-  /* add margin to the left */
   padding: 20px;
-  /* add some padding */
 }
 
 .app-feature {
@@ -184,7 +182,6 @@ header {
   margin-bottom: 100px;
 }
 
-/* Read More link */
 .app-section:last-of-type a {
   display: block;
   text-align: center;
@@ -194,7 +191,6 @@ header {
   text-decoration: underline;
 }
 
-/* Social media icons */
 .footer {
   display: flex;
   flex-direction: column;
@@ -289,7 +285,6 @@ header {
   }
 }
 
-/* For mobile phones */
 @media screen and (max-width: 768px) {
   .main-section {
     height: 100vh;
