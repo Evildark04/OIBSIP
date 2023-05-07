@@ -89,10 +89,14 @@ function navigateHistory(direction) {
     }
   }
 
-  if (output.value !== "" && output.value !== answer) {
+  if (output.value !== "" && output.value !== answer && direction === "up") {
     let confirmation = confirm("Warning: You are about to lose unsaved changes.\nPress '=' to save to History!!");
     if (!confirmation) {
+      currentIndex = Math.min(currentIndex + 1, history.length - 1);
       return;
+    } else {
+      answer = getAnswer();
+      addToOutput(answer);
     }
   }
 
