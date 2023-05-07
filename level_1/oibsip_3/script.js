@@ -34,6 +34,18 @@ function convert() {
     output.value = (input - 273.15) * 1.8 + 32;
     fromUnitText.textContent = "°K";
     toUnitText.textContent = "°F";
+  } else if (fromUnit === "kelvin" && toUnit === "kelvin") {
+    output.value = input;
+    fromUnitText.textContent = "°K";
+    toUnitText.textContent = "°K";
+  } else if (fromUnit === "celsius" && toUnit === "celsius") {
+    output.value = input;
+    fromUnitText.textContent = "°C";
+    toUnitText.textContent = "°C";
+  } else if (fromUnit === "fahrenheit" && toUnit === "fahrenheit") {
+    output.value = input;
+    fromUnitText.textContent = "°F";
+    toUnitText.textContent = "°F";
   } else {
     output.value = input;
   }
