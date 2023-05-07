@@ -14,7 +14,8 @@
       <option value="fahrenheit">Fahrenheit</option>
       <option value="kelvin">Kelvin</option>
     </select>
-    <input type="number" id="input" placeholder="0">
+    <input type="number" id="input">
+    <span id="from-unit">°C</span>
   </div>
   <div class="converter">
     <label for="to">To:</label>
@@ -24,6 +25,7 @@
       <option value="kelvin">Kelvin</option>
     </select>
     <input type="number" id="output" readonly>
+    <span id="to-unit">°F</span>
   </div>
   <button onclick="convert()">Convert</button>
 
