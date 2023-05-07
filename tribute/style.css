@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Comme:wght@300&display=swap");
+* {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body {
+  text-align: center;
+  background-color: rgba(57, 54, 54, 0.995);
+  font-family: 'Comme', sans-serif;
+}
+
+.intro,
+.early,
+.career,
+.acheive,
+.future {
+  overflow: hidden;
+}
+.intro-content {
+  float: left;
+  text-align: left;
+  max-width: 560px;
+}
+.intro-image img {
+  float: right;
+  width: 300px;
+  height: 200px;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+.early-content {
+  text-align: right;
+  float: right;
+  max-width: 575px;
+}
+.elon {
+    color: black;
+    text-decoration: underline;
+    font-size: 40px;
+}
+.early-image img {
+  float: left;
+  width: 300px;
+  height: 200px;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+.career-image img {
+  width: 290px;
+  height: 300px;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+.acheive-image img {
+  width: 290px;
+  height: 450px;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+.future-content {
+  float: left;
+  text-align: left;
+  max-width: 480px;
+}
+.future-image img {
+  float: right;
+  width: 400px;
+  height: 250px;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+h2 {
+    font-size: 30px;
+    color: orange;
+    text-decoration: underline;
+}
+p {
+    color: white;
+    font-size: 20px;
+}
+.career-content p {
+    color: white;
+    font-size: 22px;
+}
+.acheive-content p {
+    color: white;
+    font-size: 24px;
+}
+.table-of-contents {
+    border : 5px solid white;
+    border-radius: 10px;
+    max-width: 275px;
+  margin: 0 auto;
+}
+.table-of-contents ul {
+    text-align: left;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  a:hover {
+    opacity: 0.8; 
+  }
+  ul {
+    list-style-position: inside;
+  }
+  
+  
